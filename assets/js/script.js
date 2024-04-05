@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Agregar evento de clic a los botones de control del carrusel
+    // Agregar evento de clic a los botones de control del carrusel - desplazamiento de secciones en cada menu
     var carouselControls = document.querySelectorAll('.carousel-control-prev, .carousel-control-next');
 
     carouselControls.forEach(function (control) {
