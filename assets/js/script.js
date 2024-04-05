@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelector('#rotating_photos .carousel-inner').classList.add('carousel-animation');
             setTimeout(function() {
                 document.querySelector('#rotating_photos .carousel-inner').classList.remove('carousel-animation');
-            }, 200); // Ajusta la duración de la animación según tus necesidades
+            }, 300); // Ajusta la duración de la animación según tus necesidades
         });
     });
 
